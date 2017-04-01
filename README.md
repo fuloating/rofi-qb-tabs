@@ -6,12 +6,12 @@ Qutebrowser's session handling in a rofi's dmenu-like list. This script is meant
 Installation
 ------------
 
-Place qbuserscript.py to qutebrowser's userscript dir. Place tabs.sh to a dir defined in the outFilename variable in qbuserscript.py. Place empty file named tabs to a dir defined in the TABFILE variable in tabs.sh. Set save-session to false in qutebrowser.conf
+Place sessionsaver.py to qutebrowser's userscript dir. Place tabs.sh to a dir defined in the outFilename variable in sessionsaver.py. Place empty file named tabs to a dir defined in the TABFILE variable in tabs.sh. Set save-session to false in qutebrowser.conf
 
 Usage
 -----
 
-The qbuserscript.py userscript saves the current qutebrowser session for rofi to use and quits qutebrowser. Invoke it in qutebrowser with `:spawn --userscript qbuserscript.py`.
+The sessionsaver.py userscript saves the current qutebrowser session for rofi to use and quits qutebrowser. Invoke it in qutebrowser with `:spawn --userscript qbuserscript.py`.
 
 Run the rofi menu with `rofi -show tabs -modi tabs:<path-to-tabs.sh>` to open up the list of websites from the previous sessions. Executing one of the websites from the rofi list will launch that URL in the qutebrowser and remove it from the list.
 
