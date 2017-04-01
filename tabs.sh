@@ -6,6 +6,7 @@ ARG=$@
 if [ -n "${ARG}" ]
 then
     SEL_URL=$( echo ${ARG} | perl -ne 'if (/^(.+?)\s+(https?:\/\/\S+)\s*(.*)$/) {print "$2\n"}')
+    # replace xdg-open with the qutebrowser binary if needed
     coproc ( xdg-open "$SEL_URL" > /dev/null  2>&1 )
     exec 1>&-
     grep -v "$ARG" "$TABFILE" > "temp.txt"
