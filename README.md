@@ -6,7 +6,7 @@ Qutebrowser's session handling in a rofi's dmenu-like list. This script is inten
 Installation
 ------------
 
-Place sessionsaver.py to qutebrowser's userscript directory. Place tabs.sh wherever you want. Place empty file named tabs into the directory defined in the TABFILE variable in tabs.sh and in the outFilename variable in sessionsaver.py. Set save-session to false in qutebrowser.conf
+Place sessionsaver.py to qutebrowser's userscript directory. Place tabs.sh wherever you want. Modify the tabs file's directory  in the TABFILE variable in tabs.sh and in the outFilename variable in sessionsaver.py. Set save-session to false in qutebrowser.conf
 
 Usage
 -----
