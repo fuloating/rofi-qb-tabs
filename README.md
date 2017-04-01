@@ -16,3 +16,8 @@ The qbuserscript.py userscript saves the current qutebrowser session for rofi to
 Run the rofi menu with `rofi -show tabs -modi tabs:<path-to-tabs.sh>` to open up the list of websites from the previous sessions. Executing one of the websites from the rofi list will launch that URL in the qutebrowser and remove it from the list.
 
 If qutebrowser is run in "tabs-are-windows" mode, you could run a rofi list with currently open windows plus the saved websites from previous sessions for example with: `rofi -combi-modi "window,tabs:$HOME/scripts/rofi/tabs.sh" -show combi -modi combi,tabs:$HOME/scripts/rofi/tabs.sh`
+
+Thanks
+------
+
+Thanks to ccr and DaveDevilport for help in programming the scripts.
