@@ -11,7 +11,7 @@ Place sessionsaver.py to qutebrowser's userscript dir. Place tabs.sh wherever yo
 Usage
 -----
 
-The sessionsaver.py userscript saves the current qutebrowser session for rofi to use and quits qutebrowser. Invoke it in qutebrowser with `:spawn --userscript qbuserscript.py`.
+The sessionsaver.py userscript saves the current qutebrowser session for rofi to use and quits qutebrowser. Invoke it in qutebrowser with `:spawn --userscript sessionsaver.py`.
 
 Run the rofi menu with `rofi -show tabs -modi tabs:<path-to-tabs.sh>` to open up the list of websites from the previous sessions. Executing one of the websites from the rofi list will launch that URL in the qutebrowser and remove it from the list.
 
