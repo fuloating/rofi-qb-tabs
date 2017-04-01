@@ -1,7 +1,7 @@
 rofi-qb-tabs
 ============
 
-Qutebrowser's session handling in a rofi's dmenu-like list. This script is meant to replace the browser's own session handling allowing returning user to launch clean qutebrowser without reloading the websites from the last session, yet access them on demand.
+Qutebrowser's session handling in a rofi's dmenu-like list. This script is intended to replace the browser's own session handling, allowing returning user to launch clean qutebrowser without reloading the websites from the last session, yet access them on demand.
 
 Installation
 ------------
