@@ -62,3 +62,5 @@ for cwindow in data.get("windows"):
                 ofh.write(str.encode("UTF-8") +"\n")
 
 ofh.close()
+
+## Thanks to ccr for help in programming
